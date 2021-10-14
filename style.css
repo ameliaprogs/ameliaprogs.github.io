@@ -3,6 +3,10 @@ body, html {
   height: 100%;
 }
 
+.introp {
+  font-family: verdana;
+  font-size: 20px;
+}
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
