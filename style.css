@@ -1,0 +1,4 @@
+body, html {
+  cursor: url(cursor.cur), pointer;
+  height: 100%;
+}
