@@ -1,4 +1,5 @@
 body, html {
   cursor: url('cursor.cur'), pointer;
   height: 100%;
+  margin: 20% 20% 20% 20%;
 }
