@@ -1,36 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 body, html {
   cursor: url('cursor.cur'), pointer;
+  background-color: #000000;
+  background-image: url("bgimage.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   height: 100%;
 }
 
-.introp {
-  font-family: verdana;
-  font-size: 20px;
+h1, li, p, h2, h3 {
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
 }
+
+.intro {
+	background-color:#ffffff; 
+	text-align:center; 
+	vertical-align: middle; 
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	border: 2px solid black;
+	border-radius: 25px;
+	margin: auto;
+    top: 50%;
+    left: 30%;
+    right: 30%;
+	top: 0;
+    bottom:0;
+    position:fixed;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.intro::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+ul {
+  padding-left: 2rem;
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+li {
+	padding-left: 2rem;
+	background-image: url('Luna.png');
+	background-position: 0 0;
+	background-size: 1.6rem 1.6rem;
+	background-repeat: no-repeat;
+}
+
+.progpone {
+	background-color:#ffffff; 
+	text-align:center; 
+	vertical-align: middle; 
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	border: 2px solid black;
+	border-radius: 25px;
+	position: relative;
+    top: 60%;
+    left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
+  position:fixed;
   background-color: #333;
-  overflow: hidden;
+  width: 200px;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
   color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
+  padding: 12px;
+  display: block;
   font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #FFECFD;
   color: black;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #C1454A;
   color: white;
+  font-family: 'Montserrat', sans-serif;
 }
